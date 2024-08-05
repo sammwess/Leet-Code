@@ -14,6 +14,8 @@
 *.log
 *.db
 .vs/
+main
+main.dSYM
 Publish/
 *.xml
 *.~vsd
@@ -31,3 +33,4 @@ Publish/
 **/packages/
 **/.sass-cache/
 **/node_mo
+.DS_Store
