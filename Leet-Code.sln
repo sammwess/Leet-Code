@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Add Two Numbers", "2. Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Add Two Numbers.Tests", "2. Add Two Numbers.Tests\2. Add Two Numbers.Tests.csproj", "{E50C70C0-E487-4427-97BC-D6F6B4A6A0F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Two Sum.Tests", "1. Two Sum.Tests\1. Two Sum.Tests.csproj", "{505E9321-4BD3-4794-B52D-8114F026C713}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{E50C70C0-E487-4427-97BC-D6F6B4A6A0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E50C70C0-E487-4427-97BC-D6F6B4A6A0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E50C70C0-E487-4427-97BC-D6F6B4A6A0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505E9321-4BD3-4794-B52D-8114F026C713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505E9321-4BD3-4794-B52D-8114F026C713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505E9321-4BD3-4794-B52D-8114F026C713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505E9321-4BD3-4794-B52D-8114F026C713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
