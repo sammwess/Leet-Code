@@ -13,6 +13,7 @@
 **/*.log.*
 *.log
 *.db
+*/build
 .vs/
 main
 main.dSYM

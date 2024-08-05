@@ -2,12 +2,26 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
+            "label": "build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+				"-std=c++23",
+                "${workspaceFolder}/build"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+		{
 			"type": "cppbuild",
 			"label": "C/C++: g++ build active file",
 			"command": "/usr/bin/g++",
 			"args": [
 				"-fdiagnostics-color=always",
-				"-std=c++11",
+				"-std=c++23",
 				"-g",
 				"${file}",
 				"-o",
