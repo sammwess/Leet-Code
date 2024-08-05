@@ -1,0 +1,3 @@
+[submodule "1. Two Sum CPP/googletest"]
+	path = 1. Two Sum CPP/googletest
+	url = https://github.com/google/googletest.git
